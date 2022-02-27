@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 
 function App() {
   const [showAddTask, setShowAddTask] = useState(false)
-  const [tasks, setTasks] = useState()
+  const [tasks, setTasks] = useState([])
 
   useEffect(() => {
     setTasks([
